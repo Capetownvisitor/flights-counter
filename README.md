@@ -19,15 +19,20 @@
 git clone https://github.com/Capetownvisitor/flights-counter.git
 cd flights-counter
 
-python -m venv venv
+python -m venv .venv
 # On Windows:
-.\venv\Scripts\activate
+.\.venv\Scripts\activate
 # On Mac/Linux:
-source venv/bin/activate
+source .venv/bin/activate
 
 pip install -r requirements.txt
 ```
 
+Run via:
+```bash
+python script.py 'XXX'
+``` 
+With 'XXX' -> Equal to a 3 Letter [Carrier Code](https://www.faa.gov/air_traffic/publications/atpubs/cnt_html/chap3_section_3.html)
 
 #### Requirements:
 * OpenSky Python API, from their Github [OpenSky API](https://github.com/openskynetwork/opensky-api)
@@ -36,14 +41,8 @@ pip install -r requirements.txt
 
 * Tested Python Version: (3.12.12)
 
-<br>
+Output: 
 
-Use via: `python script.py 'XXX'` 
-
-
-With 'XXX' -> Equal to a 3 Letter [Carrier Code](https://www.faa.gov/air_traffic/publications/atpubs/cnt_html/chap3_section_3.html)
-
-Output:
 ![Console Output](console_output.png)
 
 <hr>
