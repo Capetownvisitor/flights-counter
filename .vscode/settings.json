@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "/Users/capetownvsitor/Coding/Python/OpenSky_API/opensky-api-master/python"
+    ]
+}

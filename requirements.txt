@@ -1,0 +1,2 @@
+# Main API dependency from GitHub
+opensky-api @ git+https://github.com/openskynetwork/opensky-api.git@master#egg=opensky-api&subdirectory=python
