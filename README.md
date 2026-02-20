@@ -52,6 +52,7 @@ Output:
 I just did this very quick simple project because even though it is very simple, it has a fun usecase.
 I also learnt a bit from it, like how to use the OpenSky API, "parse" the Data, put it all into a simple and easy script and package it into a small showcase Project complete with a README etc.
 Also I do really enjoy Aviation and I enjoyed working even on this small micro Project. Hopefully there will be some more other Projects building on this one, or ones which are just in this Field of Aviation soon.
+This project should be viewed solely as a basic starting point as a rough blueprint for other projects following.
 
 <hr>
 
